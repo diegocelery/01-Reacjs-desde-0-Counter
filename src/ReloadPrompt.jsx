@@ -29,8 +29,8 @@ function ReloadPrompt() {
         && <div className="ReloadPrompt-toast">
             <div className="ReloadPrompt-message">
               { offlineReady
-                ? <span>App lista para trabajar offline</span>
-                : <span>Nueva versión disponible, haga click en el botón Reload para actualizar.</span>
+                ? <span>Aplicación lista para trabajar offline</span>
+                : <span>Nueva version disponible, haga click en el boton Reload para actualizar.</span>
               }
             </div>
             { needRefresh && <button className="ReloadPrompt-toast-button" onClick={() => updateServiceWorker(true)}>Reload</button> }
