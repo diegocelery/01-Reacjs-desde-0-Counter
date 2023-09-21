@@ -33,8 +33,8 @@ function ReloadPrompt() {
                 : <span>Nueva version disponible, haga click en el boton Reload para actualizar.</span>
               }
             </div>
-            { needRefresh && <button className="ReloadPrompt-toast-button" onClick={() => updateServiceWorker(true)}>Reload</button> }
-            <button className="ReloadPrompt-toast-button" onClick={() => close()}>Close</button>
+            { needRefresh && <button className="ReloadPrompt-toast-button" onClick={() => updateServiceWorker(true)}>Recargar</button> }
+            <button className="ReloadPrompt-toast-button" onClick={() => close()}>Cerrar</button>
         </div>
       }
     </div>
