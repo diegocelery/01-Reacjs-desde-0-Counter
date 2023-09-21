@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(),VitePWA({
-    includeAssets: ['vite.svg','/assets/react-35ef61ed.svg', 'ios','android','windows11'], /* Para cachear archivos y contenido de carptas*/
+    includeAssets: ['vite.svg','pwa.png','/assets/react-35ef61ed.svg', 'ios','android','windows11'], /* Para cachear archivos y contenido de carptas*/
     devOptions: {
       enabled: true /* En modo desarrollo (lofalhost), hace que se injecte el serviceworker */
     },
